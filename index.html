@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="nav">
+      <div class="container">
+        <h1 class="logo">Logo</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+   </nav>  
+   <div class="container">
+    <div class="meal-wrapper">
+        <div class="meal-search">
+            <h2 class="title">For the Love of delicious Food</h2>
+            <div class="meal-search-box">
+                <input type="text" class="search-control" placeholder="Search Recipe" id="searchInput">
+                <button type="submit" class="search-btn btn" id="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+        <div class="meal-result">
+            <h2 class="title">Your Search Results</h2>
+            <div id="meal">
+                <!--meal start-->
+
+                <!--meal end-->
+            </div>
+        </div>
+    </div>
+   </div>
+   <script
+   src="https://code.jquery.com/jquery-3.1.1.min.js"
+   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+   crossorigin="anonymous"></script>
+   <script src="index.js"></script>
+</body>
+</html>
